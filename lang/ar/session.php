@@ -1,0 +1,27 @@
+<?php
+return
+	[
+		'topic' => 'الموضوع',
+		'startTime' => 'وقت البداية',
+		'duration' => 'المدة',
+		'userName' => 'اسم المستخدم',
+		'startUrl' => 'رابط البداية',
+		'joinUrl' => 'رابط الانضمام',
+		'addOnlineSessionDirect' => 'اضافة جلسة مباشرة',
+		'addOnlineSessionIndirect' => 'اضافة جلسة غير مباشرة',
+		'deleteSession' => 'حذف جلسة',
+		'StartNow' => 'ابدأ الان',
+		'JoinNow' => 'انضم الان',
+		'meetingNumber' => 'رقم الاجتماع',
+		'meetingPassword' => 'كلمة المرور',
+		'startLink' => 'رابط البداية',
+		'joinLink' => 'رابط الانضمام',
+		'topicRequired' => 'الموضوع مطلوب',
+		'topicString' => 'الموضوع يجب ان يكون نصا',
+		'startAtRequired' => 'تاريخ البداية مطلوب',
+		'startAtDate' => 'تاريخ البداية يجب ان يكون تاريخ',
+		'durationRequired' => 'المدة مطلوبة',
+		'durationNumeric' => 'المدة يجب ان تكون رقم',
+		'durationMin' => 'المدة يجب ان تكون اقل من او تساوي واحد',
+		'add'=>'اضافه جلسه مباشرة',
+	];

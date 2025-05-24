@@ -1,0 +1,26 @@
+<?php
+return [
+    'add'=>'Add Grade',
+    'gradeName'=>'Grade Name',
+    'stageName'=>'Stage Name',
+    'gradeOperation'=>'Operation',
+    'delete'=>'Delete',
+    'addInput'=>'Add Input',
+    'gradeNameEn'=>'English Grade Name',
+    'gradeNameAr'=>'Arabic Grade Name',
+    'Close'=>'Close',
+    'submit'=>'Submit',
+    'NameEnRequired'=>'English Grade Name is Required',
+    'NameArRequired'=>'Arabic Grade Name is Required',
+    'dataSaved'=>'Data is Saved Successfully',
+    'stageNameRequired'=>'Stage Name is required',
+    'stageNameExist'=>'Stage Name is not found',
+    'editGrade'=>'Edit Grade',
+    'dataUpdated'=>"Data is Updated Successfully",
+    'checkboxSelected'=>'Delete Selected Grades',
+    'searchStage'=>'Search By Stage Name',
+    'all'=>'All',
+    'mustChoose'=>'You Must Choose at least one grade',
+    'ok'=>'Agree',
+    'deleteGrade'=>'Delete Grade'
+];

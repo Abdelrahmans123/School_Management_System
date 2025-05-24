@@ -1,0 +1,60 @@
+aside{
+    right: 0;
+}
+aside .toggleIcon{
+    left: -5%;
+    right: auto;
+}
+aside.close .toggleIcon{
+    left: -20%;
+    right: auto;
+
+}
+aside .aside__content .aside__body .aside__search a{
+    left: 9px;
+    right: auto;
+}
+.content{
+    right: 0;
+    left: auto;
+}
+aside.close ~ .content{
+    right: 88px;
+    left: auto;
+}
+body{
+    direction: rtl;
+}
+.aside__content .aside__mode .toggle-switch{
+    left: -8px;
+    right: auto;
+}
+aside.close .aside__content .aside__list .aside__link .dropdown,aside.close .aside__content .aside__list .aside__link .blank{
+    right: 75px;
+    left: auto;
+    border-radius: 6px 0 0 6px;
+    white-space: nowrap;
+}
+body.dark  .aside__mode .toggle-switch .switch::before {
+    left: 25px;
+}
+aside .aside__content .aside__list .aside__link .dropdown {
+    padding: 6px 80px 14px 6px;
+}
+table thead tr th{
+    text-align: right !important;
+}
+.modelClose{
+    margin: 0 !important;
+}
+.accordion-button::after{
+    margin-right: auto;
+    margin-left: 0;
+}
+.languageDropdown {
+right: 0;
+    left: auto;
+}
+.errMsg{
+    justify-content: space-between;
+}

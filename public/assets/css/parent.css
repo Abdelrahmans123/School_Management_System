@@ -1,0 +1,18 @@
+.paginations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paginations .ball{
+    width: 20px;
+    height: 20px;
+    background: grey;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.paginations .ball.active{
+    background: blue;
+}
+.paginations .ball.success{
+    background: green;
+}

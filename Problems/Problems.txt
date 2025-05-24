@@ -1,0 +1,4 @@
+The Problem One:
+the edit modal and validations
+The Problem Two:
+The Parent Uploads does not work correctly when the parent uploads a file (Solved)

@@ -1,0 +1,22 @@
+<?php
+return [
+	'questionTitle' => 'Question Title',
+	'answers' => 'Answers',
+	'rightAnswer' => 'Right Answer',
+	'quizName' => 'Quiz Name',
+	'chooseQuiz' => 'Choose Quiz',
+	'add' => 'Add Question',
+	'edit' => 'Edit Question',
+	'score' => 'Score',
+	'deleteQuestion' => 'Delete Question',
+	'chooseScore' => 'Choose Score',
+	'titleRequired' => 'Title Required',
+	'answersRequired' => 'Answers Required',
+	'rightAnswerRequired' => 'Right Answer Required',
+	'scoreRequired' => 'Score Required',
+	'titleString' => 'Title Must Be String',
+	'answersString' => 'Answers Must Be String',
+	'rightAnswerString' => 'Right Answer Must Be String',
+	'scoreString' => 'Score Must Be String',
+	'addLine' => 'Please add a line for each answer',
+];

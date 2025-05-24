@@ -1,0 +1,204 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /*----Colors-----*/
+    --body-color: #e4e9f7;
+    --sidebar-color: #fff;
+    --primary-color: #695cfe;
+    --primary-color-light: #f6f5ff;
+    --toggle-color: #ddd;
+    --text-color: #707070;
+    /*-----Transitions-----*/
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+body.dark {
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color: #3a3b3c;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
+}
+img {
+    width: 100%;
+}
+aside::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-color: var(--body-color);
+    transition: var(--tran-04);
+}
+.content {
+    position: relative;
+    flex: 10;
+    width: calc(100% - 250px);
+    background-color: var(--body-color);
+    transition: var(--tran-05);
+}
+
+.content .content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .content__header .content__header__left {
+    margin: 0 15px;
+}
+body.dark .content .content__header .content__header__left h1 {
+    color: var(--text-color);
+}
+.content .content__header .content__header__right {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .content__header .content__header__right .bellIcon {
+    font-size: 20px;
+    color: var(--text-color);
+    transition: var(--tran-02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content .content__header .content__header__right .userProfile .user__image {
+    width: 70%;
+    margin: 10px;
+}
+.content
+    .content__header
+    .content__header__right
+    .userProfile
+    .user__image
+    img {
+    border-radius: 50%;
+}
+
+.languageContainer {
+    position: relative;
+}
+.languageDropdown {
+    position: absolute;
+    top: 33px;
+    left: 0;
+    background-color: var(--sidebar-color);
+    padding: 0;
+    list-style: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: Upsidedown 1s;
+    z-index: 9999999;
+    transition: all 1s;
+    padding-left: 0;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.languageDropdown li {
+    padding: 10px;
+}
+.languageDropdown li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.languageDropdown li:last-child {
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.languageDropdown li:hover {
+    background-color: var(--primary-color);
+}
+.languageDropdown li:hover a {
+    color: var(--sidebar-color);
+}
+
+body.dark .languageDropdown li:hover a {
+    color: var(--text-color);
+}
+aside .active {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.mode .mode__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    font-size: 20px;
+    color: var(--text-color);
+    transition: var(--tran-02);
+}
+.mode .moonSun .mode__icon.sun {
+    opacity: 0;
+}
+body.dark .moonSun .mode__icon.sun {
+    opacity: 1;
+}
+body.dark .moonSun .mode__icon.moon {
+    opacity: 0;
+}
+.mode .toggle-switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 60px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.mode .toggle-switch .switch {
+    position: relative;
+    height: 22px;
+    width: 44px;
+    background-color: var(--toggle-color);
+    border-radius: 25px;
+}
+.mode .toggle-switch .switch::before {
+    content: " ";
+    height: 15px;
+    width: 15px;
+    background-color: var(--sidebar-color);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    transition: var(--tran-03);
+}
+body.dark .mode .toggle-switch .switch::before {
+    left: 25px;
+}
+.mode .aside__container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: var(--tran-04);
+    border-radius: 6px;
+    padding: 10px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: var(--primary-color) !important;
+}
+.linkActive {
+    opacity: 1 !important;
+}
+@keyframes Upsidedown {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
