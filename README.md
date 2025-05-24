@@ -31,7 +31,7 @@ A robust, multilingual, role-based School Management System built using Laravel,
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/Abdelrahmans123/InvoiceManagementSystem.git
+git clone https://github.com/Abdelrahmans123/School_Management_System.git
 ```
 2. Navigate to the directory
 ```bash
