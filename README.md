@@ -35,7 +35,7 @@ git clone https://github.com/Abdelrahmans123/School_Management_System.git
 ```
 2. Navigate to the directory
 ```bash
-cd InvoiceManagementSystem
+cd School_Management_System
 ```
 3. Install dependencies
 ```bash
